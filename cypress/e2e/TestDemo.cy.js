@@ -35,7 +35,7 @@ describe('Test Case 1: Login User with correct credentials', () => {
     
   });
 
-////////////////////////////////////////
+/////////////////////////////////////////
   it('Test Case 2: Should successfully submit the contact form', () => {
    
 
