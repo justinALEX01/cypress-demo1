@@ -57,7 +57,7 @@ describe('Test Case 1: Login User with correct credentials', () => {
     contactPage.verifyHomePage();
   });
 
-/////////////////////
+////////////////////////////
   it('Test Case 3: Should add two products to cart and verify', () => {
 
     // Go to Products
