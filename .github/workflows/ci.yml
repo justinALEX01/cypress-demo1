@@ -15,13 +15,13 @@ jobs:
         with:
           node-version: 18
 
-      # Install dependencies manually before Cypress run
       - name: Install dependencies
         run: npm ci
 
       - name: Run Cypress tests
         uses: cypress-io/github-action@v5
         env:
+          CYPRESS_email: sobew94189@inkight.com
           CYPRESS_password: ${{ secrets.CYPRESS_password }}
 
       - name: Upload screenshots (on failure)
